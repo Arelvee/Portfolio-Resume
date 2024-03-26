@@ -142,7 +142,7 @@ a:hover {
     padding: 7px;
     margin-top: 1px;
     transition: transform 0.3s ease-in-out;
-    width: 100%; /* Adjust as needed */
+    width: 110%; /* Adjust as needed */
     max-width: 400px; /* Adjust as needed */
     height: 600px; /* Adjust as needed */
 }
@@ -203,10 +203,10 @@ a:hover {
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     padding-left: 7px;
-    margin-left: 14px;
+    margin-left: 47px;
     margin-top: 1px;
     transition: transform 0.3s ease-in-out;
-    width: 200%; /* Adjust as needed */
+    width: 190%; /* Adjust as needed */
     -moz-box-align: stretch;
 }
 
@@ -261,5 +261,3 @@ a:hover {
 .educ-data li span {
     white-space: nowrap;
 }
-
-
