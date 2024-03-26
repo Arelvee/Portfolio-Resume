@@ -82,4 +82,184 @@ a:hover {
     color: #FFCA0AE8; /* Change color on hover */
 }
 
+/* About CSS */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-grid img {
+    width: 320%;
+    max-height: 80px; /* Adjust the max-height as needed */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    border-radius: 10px;
+}
+
+.card {
+    background: rgba(248, 247, 247, 0.297);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(252, 181, 203, 0.686);
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    color: #863507;
+    text-align: center;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+
+/* Additional CSS for personal data section */
+.personal-data {
+    background: rgba(248, 247, 247, 0.297);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    margin-top: 1px;
+    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+}
+
+/* Additional CSS for personal data section */
+.personal-data:hover {
+    transform: translateY(-5px);
+    background: rgba(237, 252, 181, 0.686);
+}
+
+.personal-data h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    color: #863507;
+    text-align: center;
+}
+
+.personal-data ul {
+    padding: 0;
+    margin: 0;
+}
+
+.personal-data li {
+    font-size: 17px;
+    line-height: 1.4;
+    color: #555;
+    margin-left: auto;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: start;
+    margin-right: 1px;
+}
+
+.personal-data .subtitle {
+    font-weight: bold;
+    color: #034b7b;
+    min-width: 150px; /* Adjust as needed for alignment */
+    padding-right: 10px; /* Adjust as needed for spacing */
+    text-align: left;
+}
+
+/* Optional: Add a colon after each subtitle */
+.personal-data .subtitle:after {
+    padding-right: 6px;
+}
+
+/* Optional: Add a space after the colon */
+.personal-data li span {
+    white-space: nowrap;
+}
+
+
+/* education data */
+/* Additional CSS for education data section */
+.educ-data {
+    background: rgba(248, 247, 247, 0.297);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding-left: 7px;
+    margin-left: 14px;
+    margin-top: 1px;
+    transition: transform 0.3s ease-in-out;
+    width: 200%; /* Adjust as needed */
+    -moz-box-align: stretch;
+}
+
+/* Additional CSS for education data section */
+.educ-data:hover {
+    transform: translateY(-5px);
+    background: rgba(237, 252, 181, 0.686);
+}
+
+/* Title style for education data */
+.educ-data h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    color: #863507;
+    text-align: center;
+}
+
+/* List styles for education data */
+.educ-data ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styles for education data */
+.educ-data li {
+    font-size: 17px;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-right: 1px;
+}
+
+/* Subtitle styles for education data */
+.educ-data .subtitle {
+    font-weight: bold;
+    color: #034b7b;
+    min-width: 150px; /* Adjust as needed for alignment */
+    padding-right: 10px; /* Adjust as needed for spacing */
+    text-align: left;
+}
+
+/* Add a colon after each subtitle */
+.educ-data .subtitle:after {
+    content: ":";
+    padding-right: 5px;
+}
+
+/* Add a space after the colon */
+.educ-data li span {
+    white-space: nowrap;
+}
+
 
